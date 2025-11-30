@@ -80,6 +80,7 @@ int main() {
     stackADD(&p,9);
     stackADD(&p,0);
 
+    printf("The stack is:\n");
     displayStack(&p);
     return 0;
 }
